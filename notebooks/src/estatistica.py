@@ -4,6 +4,9 @@ from scipy.stats import(
     ttest_ind, 
 )
 from collections import namedtuple
+from matplotlib.ticker import PercentFormatter
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 def remove_outliers(dados, largura_bigodes=1.5):
     """ Retorna outliers de uma coluna ou aaray
