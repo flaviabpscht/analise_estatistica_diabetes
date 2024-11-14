@@ -60,3 +60,5 @@ Clique no botão **Use this template** para criar um novo repositório com base 
 [Clique aqui](referencias/01_dicionario_de_dados.md) para ver o dicionário de dados da base utilizada
 
 ## Resumo dos principais resultados
+
+A análise estatística das variáveis nos permite perceber correlação mais acentuada entre diabetes e saúde em geral, pressão e colesterol altos, faixa etária e dificuldade de andar.
