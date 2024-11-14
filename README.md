@@ -44,15 +44,15 @@ Clique no botão **Use this template** para criar um novo repositório com base 
 
 ## Configuração do ambiente
 
-1. Faça o clone do repositório que será criado a partir deste modelo.
+1. Faça o clone do repositório.
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone git@github.com:flaviabpscht/analise_estatistica_diabetes.git
 
     ```
- Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
+ Crie um ambiente virtual para o seu projeto utilizando o 'conda'.
       ```bash
-      conda env export > ambiente.yml
+      conda env create -f ambiente.yml -- name analise_estatistica_diabetes
       ```
 
 ## Um pouco mais sobre a base
